@@ -1,0 +1,60 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  width: 87.5vw;
+  height: 135vh;
+  background-color: rgb(223, 16, 68);
+  margin-left: 5vw;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 100%;
+}
+
+.marketing {
+  display: flex;
+  flex-direction: row;
+  /* text-align: center; */
+  justify-content: space-between;
+  /* border: 10px solid black; */
+  align-items: center;
+}
+
+.heading {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.btn {
+  background-color: black;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  padding: 25px;
+  color: white;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image {
+  height: 50%;
+  width: 50%;
+}
+
+.imageMan {
+  height: 100%;
+  /* width: 100%; */
+}

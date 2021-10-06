@@ -1,0 +1,69 @@
+/* .container { */
+/* background: linear-gradient(150deg, black 2%, white);
+  width: 87.5vw;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  gap: 0px;
+  margin-bottom: 5vh;
+} */
+/* 
+.part {
+  height: 8vh;
+  width: 43.75vw;
+  background-color: black;
+  margin-left: 5vw;
+  position: relative;
+  overflow: hidden; */
+
+/* 
+.practice {
+  height: 20vh;
+  width: 20vw;
+  margin-left: 10vw;
+  margin-bottom: 10vh;
+  position: relative;
+} */
+
+.container {
+  height: 10vh;
+  width: 86vw;
+  margin-left: 6vw;
+  position: relative;
+  margin-bottom: 5vh;
+  text-align: center;
+  box-shadow: 0px 5px 5px rgb(100, 97, 97);
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: skew(30deg);
+  background-color: black;
+  z-index: -1;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: skew(-30deg);
+  background-color: black;
+  z-index: -1;
+}
+
+.text {
+  position: absolute;
+  /* border: 1px solid red; */
+  bottom: -13px;
+  left: 34vw;
+  color: white;
+  font-size: 30px;
+}

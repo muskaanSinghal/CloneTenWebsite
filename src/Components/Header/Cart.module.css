@@ -1,0 +1,38 @@
+.btn {
+  position: relative;
+  background-color: rgb(197, 38, 38);
+  border-radius: 20px;
+  width: 12vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg .cart {
+  stroke: black;
+  stroke-width: 0.5;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  transition: stroke 0.5s;
+}
+/* svg {
+    background-color: cadetblue;
+  } */
+
+svg .wheel {
+  fill: none;
+  stroke: black;
+  stroke-width: 0.5;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+
+.btn:hover .cart,
+.btn:hover .wheel {
+  stroke: white;
+}

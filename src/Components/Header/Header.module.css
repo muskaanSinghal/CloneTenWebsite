@@ -1,0 +1,11 @@
+.label {
+  color: rgb(204, 29, 29);
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px 0.5px grey;
+}
+
+.label::first-letter {
+  color: black;
+}

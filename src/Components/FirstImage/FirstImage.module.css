@@ -1,0 +1,22 @@
+.imageContainer {
+  /* margin: 50px 13vw; */
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  bottom: 10vh;
+  left: 24vw;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(212, 201, 35);
+  text-shadow: 1px 1px 1px rgb(15, 14, 14);
+}
+
+.image {
+  width: 88.5vw;
+  height: 90vh;
+  margin-left: 2.5vw;
+  box-shadow: 5px 5px 5px grey;
+}
